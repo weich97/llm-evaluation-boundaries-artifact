@@ -1,0 +1,238 @@
+{
+  "caps": {
+    "grant_quota": {
+      "arg": "quota_gb",
+      "cap": 500
+    },
+    "provision_vm": {
+      "arg": "instance_count",
+      "cap": 20
+    },
+    "send_batch": {
+      "arg": "recipient_count",
+      "cap": 5000
+    },
+    "wire_transfer": {
+      "arg": "amount_usd",
+      "cap": 10000
+    }
+  },
+  "steps": [
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "amount_usd": 9849
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 9849
+      },
+      "result": {
+        "line_items": [
+          14,
+          36
+        ],
+        "status": "ok",
+        "total": 50
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "amount_usd": 1404
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 1404
+      },
+      "result": {
+        "line_items": [
+          59,
+          27
+        ],
+        "status": "ok",
+        "total": 86
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {
+        "clipped_from": 12697
+      },
+      "approved_args": {
+        "amount_usd": 10000
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 12697
+      },
+      "result": {
+        "line_items": [
+          44,
+          7,
+          57,
+          1
+        ],
+        "status": "ok",
+        "total": 109
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "quota_gb": 154
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "quota_gb": 154
+      },
+      "result": {
+        "line_items": [
+          1,
+          49,
+          25,
+          9
+        ],
+        "status": "ok",
+        "total": 84
+      },
+      "tool": "grant_quota",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "instance_count": 20
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "instance_count": 20
+      },
+      "result": {
+        "line_items": [
+          2,
+          55,
+          18,
+          6
+        ],
+        "status": "ok",
+        "total": 81
+      },
+      "tool": "provision_vm",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "amount_usd": 470
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 470
+      },
+      "result": {
+        "line_items": [
+          11,
+          23,
+          13,
+          53
+        ],
+        "status": "ok",
+        "total": 100
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 1583
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 1583
+      },
+      "result": {
+        "line_items": [
+          32,
+          58,
+          60
+        ],
+        "status": "ok",
+        "total": 150
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 696
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 696
+      },
+      "result": {
+        "line_items": [
+          57,
+          12
+        ],
+        "status": "ok",
+        "total": 69
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "instance_count": 5
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "instance_count": 5
+      },
+      "result": {
+        "line_items": [
+          3,
+          57,
+          20
+        ],
+        "status": "ok",
+        "total": 80
+      },
+      "tool": "provision_vm",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {
+        "clipped_from": 14245
+      },
+      "approved_args": {
+        "amount_usd": 10000
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 14245
+      },
+      "result": {
+        "line_items": [
+          47,
+          53,
+          34
+        ],
+        "status": "ok",
+        "total": 134
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    }
+  ],
+  "tool_version": "toolset-2.3.1"
+}

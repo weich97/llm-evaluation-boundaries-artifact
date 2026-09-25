@@ -1,0 +1,2134 @@
+{
+  "analysis_plan_sha256": "0038110dcaade1cd07b99345289d9fb524d093375e5fe12f6e37b25509e37a74",
+  "answer_key_note": "ground_truth.jsonl is private and must not be served with public tasks.",
+  "generator_sha256": "a9b79b4e32cf9f32fd88bf04d0976ef63be114533a0c85a26776509c03e362b5",
+  "protocol": {
+    "conditions": [
+      "zero",
+      "violation_only",
+      "violation_plus_edit"
+    ],
+    "expected_result_keys": 600,
+    "high_factor": 1.6,
+    "min_pair_confidence": 0.4,
+    "prompt_sha256_by_domain": {
+      "tooluse": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "trading": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3"
+    },
+    "remove_target_min_confidence_record": true,
+    "tool_base_seed": 9000,
+    "trading_cap": 0.35,
+    "trading_low_factor": 0.8
+  },
+  "schema_version": "finaudit.multilabel.v1",
+  "source_answer_key_sha256": {
+    "deepseek_v4_pro": "d45538d43d18066b85f7d22bed1a5f8380591659ce9ce70808f2d299722e4e3e",
+    "glm_5_direct": "facc2660c0eb241293290e460a7dbcd0bbb77b8e8d8985339a45765539b2ab6b"
+  },
+  "task_count": 300,
+  "task_id_note": "Opaque task IDs reveal neither condition nor label cardinality.",
+  "tasks": [
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_01b20ffe12bd612d",
+      "trajectory_sha256": "d07ae9401b6f277ce6018bf2edf7680c9d3205b822519ca92ae2d31f8267c6be"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_01c9d985c0a50753",
+      "trajectory_sha256": "75342dc8d29ec8deab1a2d7f076cc18080e0b92a2c4586a313b97f91ce636c17"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_04533ab61efaaf63",
+      "trajectory_sha256": "837279cbb525b9067e4d48689994ab6f48fdf38de491e1852c50e8da6dcfba00"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_0497cd3704e804de",
+      "trajectory_sha256": "5528d6ddfba05b021ef995a5fb4172bd0815d0b643b703324edecd343c8d7cff"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_068a657d85363db3",
+      "trajectory_sha256": "4a147a0996dc8f91738e04262f64c9df2693c1f494b9dd40fe65bcd7d5208e6b"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_08e714b4c10137d9",
+      "trajectory_sha256": "a4f337c25459ebb42f1bca4a37add7ba2f6f350552ebc16d32df65b6efd4b24e"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_08f44eddcac08a4c",
+      "trajectory_sha256": "9667e35aefd7c8ab600d0b36cc3da252ab118ee9dc5b1078df03c38ff95283ff"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_0978c16b5722e115",
+      "trajectory_sha256": "4ba45d42e36c8e4463fc44622ae330f0ad4cefe75356f95ec91b0cbbab52a1c5"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_09fab8782b7a107f",
+      "trajectory_sha256": "706489c1aae5649c988e32e7c0fb53e50064f5a356659222d07d9ff48818d80b"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_0a0306b414d33e14",
+      "trajectory_sha256": "cfb7a6c50a853d5370812ba277c85334af548ed985ecd201c5de3c4dfac3bee2"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_0acf5df838ae72e7",
+      "trajectory_sha256": "f300d5c207e3c96855430a4a92844dd3ae0c72a75b947973934d06c9787bcc81"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_0b6a1a2e083c6cd3",
+      "trajectory_sha256": "09215d26bd626c73c48b5db67886af6a84193fccb8b14b6608c732f37a7a6a22"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_0c489a9bf63b3950",
+      "trajectory_sha256": "6d5d4e6f98a42fe375e837b8ec4ede63f8886857694f5d63f8c0094dd69e4b4d"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_0e574d9172b86008",
+      "trajectory_sha256": "9f95e5c011cce0777fd6b2adf7fe11ad53c74e467c063d0dfe0aa9f631cf25c1"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_0e876c2c2d4d5880",
+      "trajectory_sha256": "397aa3ec2e50dad98d547d0ce544d84721e003f38c9a242b49c98223405c7886"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_0efdc66f84eb9058",
+      "trajectory_sha256": "1bb2be007125c9d7b1619e10eec4a43a73f3b55f83501f6acbc6aaaffab29204"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_0f353f2f9c95fdd5",
+      "trajectory_sha256": "d0cb963c2f31b3930c14142c7d41e506367bbb29ce4b8ae421652101aa275229"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_0f6053c0e3a542b3",
+      "trajectory_sha256": "2f3b8529046b5933c2c147e49410a510904668677665e78a2a72874ce0208519"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_10df00c03edcd44c",
+      "trajectory_sha256": "c66050eff365953076f7b73a4fd2ba43aa44c7be596d865e33b7818388296646"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_127029c0574e567a",
+      "trajectory_sha256": "dfd1846a8d48bd7bddda033ae7c20c80022b378a84d0dc79a5189894e1374d78"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_12c620bf27f5e495",
+      "trajectory_sha256": "4d6e91781235a643244d0a098e443efa6e8f0b21d45a498339f61a135229b80e"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_1393886f7563539b",
+      "trajectory_sha256": "154385c2dd15acb4501fa4d223daebf7e5b1cd295efb8daf84e5aa4e647d9698"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_146c560a2404b4da",
+      "trajectory_sha256": "43e86435358a70177a2404ac124927aba1cc8f3a0f5ae6f10b473b323296b083"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_14dc9e6168f05418",
+      "trajectory_sha256": "bc29519760eed490e275012198c03f2ccd0cf52dcc54b67c112db2279d0f0c1d"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_14f685b031ab4436",
+      "trajectory_sha256": "38409f6b17c21acc754624834e8e0fb30fb658878b9bfab932e5a786456acf2f"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_157b5eeb98fb6747",
+      "trajectory_sha256": "54e7a969e9ab6d6f13315bda16b4bcf641912ef0f0ccd5bca44699111222752e"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_15d36f80497558ba",
+      "trajectory_sha256": "bca3bd0954ab7b43d7b8e628c6db2a799a0d2b97f3c9c08f18caa08a2b878df5"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_173b1943517c021d",
+      "trajectory_sha256": "12c2ccb0c979d99122909bb5374bbc4888e4e340fecac904babda75ea54172c9"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_1824b3eea04b621f",
+      "trajectory_sha256": "402bf516b8f0b168ecb409542ed6acc783aaa892d07c9b3c709c95f76d2235dc"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_1c9d543a7908263c",
+      "trajectory_sha256": "a6a4b3ac8761213a73ab6a6072d1857815083fbc7abfa498128d368b8c0e286f"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_1d8dc584c8e1d773",
+      "trajectory_sha256": "d41c0958aec316061854fb6cc0fd57a2658c933f1ac4b18a6371bbe8ac5d8140"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_1da79c3306da72ba",
+      "trajectory_sha256": "ccb59011b641f46660d315a7b85d52d6d0fd951b7dc81ac1a75e8f18d0460a42"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_1f1d6f44122198c4",
+      "trajectory_sha256": "d8f6bd0a2b9b8662b91ad765a4fe4ae2cf1c09123a9bae950eb3f918de72c3f2"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_1f53b878c4f1d2f4",
+      "trajectory_sha256": "3116f3ac7399b5ad63923be0441ae1a9a4a564e879b92b761b66b3614e2858e9"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_204b46722209d95c",
+      "trajectory_sha256": "9596eff547681bd01298d5c9b4e2a3df5f86c91a748ec9bb9f23a82ed57628ea"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_221d64db97afba76",
+      "trajectory_sha256": "85525435b473101aa25be7899fc9a6eeaa86ff310c94828f6a3378584a319eb6"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_2233559880ccad9f",
+      "trajectory_sha256": "9777ea3e14be5af2fdf457cf111c88bd671f26817c1e6ebbc312504ad656d629"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_225d9fdea61d0783",
+      "trajectory_sha256": "992322811338e81a7effc62f611cdca536df520fa80253ec49d41e1946156471"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_22673aa6aa11c0bf",
+      "trajectory_sha256": "b0d44b6d8606c2f37152382a89522a8d8c8e99844f48ddd8a275763805f92d35"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_228f6cf822eb1b3f",
+      "trajectory_sha256": "58439c1ae70c863c0b506b817c32e436f94ea083eb0250c50fb3ce7b8f6b00ff"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_22c7f49a6afbe178",
+      "trajectory_sha256": "c6046f3f915422072014ead461d349cfc3b465ab916270e6cd6e283b718f79c0"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_2363a050ac3d918f",
+      "trajectory_sha256": "b8c960d31c5fabd6983cef819031593a4490c72b2332009cec4f4d2c60ac25b4"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_23938b9ee843d9ec",
+      "trajectory_sha256": "4fef3076db3be305d2a84ab898526b61ddf3c30dc9699ee5a8500006ef704dea"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_24952f2a9c4f3928",
+      "trajectory_sha256": "dcb44988b857701c4349663aaedd5827a63ccde43a5ef7a2a6250c1a9e84cbb6"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_260f89ac86a91cae",
+      "trajectory_sha256": "48517d22a9336c344ab19ca5927192f12db5e7824626bf91edc08c2becf29132"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_287b4895cc5ce2f6",
+      "trajectory_sha256": "7c045e208f5eb9e0697fb9adf78363352003719d940a7f5582425b3da772957f"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_28bf681c92122728",
+      "trajectory_sha256": "2c6bb1cfbaa8b55d6623ed26d5400c7ccc0602a42000a6c77b6aaa6e097714ca"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_295ae7a7f8c9f05e",
+      "trajectory_sha256": "8fd06782f0ddafa31ebf79df708b9a5fd2c34e1a5a89383e722baedde12b55d4"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_29812a0c844aebdb",
+      "trajectory_sha256": "b600728834b8be0094ff870b7ccad6f6ea4c859aeeb8805149d99bf81688554f"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_29b74fff87847e06",
+      "trajectory_sha256": "76f79240d1a20eea6e2baa32425c9696b3b83c2e739f7ff56be8ee65b3564627"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_2ad190ddd2ae5485",
+      "trajectory_sha256": "e6d3148eb2c1787050858682b7129968c74b8a4f647c76bb9f3b8c3de86cb67e"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_2bf1a8ae13c9af81",
+      "trajectory_sha256": "638609b8672b2b649abb63c08edf7b78851d23cd70d8aee8e08a88599664abcd"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_2e977fd3d206e10e",
+      "trajectory_sha256": "48a71dcedf91aa8dd1488f5bffc67b9e979b455207f0bd933d17ce049e98b51b"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_2ebfdf64963048ff",
+      "trajectory_sha256": "b2ad575491bc682cf109779f9320c42c7208aede4e03f94ae8ec4de8171c49be"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_2f8fc88d870b18a6",
+      "trajectory_sha256": "2c3970219cd283f544f3615780c3e086fe76dea163b1cc8cfa4ab446b9bb101f"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_302af22c936deeae",
+      "trajectory_sha256": "c2a940c994f2eb919e179a0fbacf900dbd589a76a481d5395fe6613d1493ee34"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_30ca502cac036a5d",
+      "trajectory_sha256": "94f569c110804fe6236ee9ffd2214a770de2608a554eb0ccfed769d2db71dd93"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_312dd6c8a5b61c92",
+      "trajectory_sha256": "7499c849c168d02cb18ffd2622397fadf93ef5d20d6f76238faff165cb2190f7"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_3159f8c2d13e29ed",
+      "trajectory_sha256": "dcc596c32c0fe7ff53ef04bbd10b0500887defe5a88f15de1d053136f3361fda"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_31cec6ee3b1b4bb2",
+      "trajectory_sha256": "fcb1fd03d0d726f5dd5d32081eb0097c503a1aa97e79362c18cf1b0b93bf8fde"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_3281bfa15637dca3",
+      "trajectory_sha256": "89298d6ac961b2f508402e890d5c56d2b5703f284213f00d32f355612e00b141"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_32a17d3f7a04a024",
+      "trajectory_sha256": "1e1c31d61cc704a583b41cec97cdb44b1ec65965e56d2e49c996b0a5116af864"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_33522a3e5f90c08f",
+      "trajectory_sha256": "c265768eb2da36e4bb146be102c667e5bded95be0e9d8dfc3ca3e3c666fd064b"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_33ab8c9237e4c238",
+      "trajectory_sha256": "1b8712e3e19751c2452c88c3dabd5ea4eaab0506638d7ecfa510161fb574cff8"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_33da5f3fa5426f2a",
+      "trajectory_sha256": "770e2763e25b8e49de6559202d2cd76370f742273f0ab7ade6b9b4e2c5cc8af8"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_33dd9277be06d15c",
+      "trajectory_sha256": "8757d273820bcff5de16fcb4e7c614bd8f9ac28a0df8d0a3fa5583914578b09f"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_33e68ac345976412",
+      "trajectory_sha256": "53c288127b3cfc0a958adc32a5169f60db679ebc5f350428c91b036941bae0ff"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_341cd3e869e660c6",
+      "trajectory_sha256": "4e8f4221ece4217b8a8171eec495e5e93374364d287a132aa4ac980d7091c56c"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_353ce3e9e8f572e9",
+      "trajectory_sha256": "bbabe17432d7aa4d93a34037e08a588398ce7bc7d27dfa6330500c5d3b3b3c23"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_354e167aedd73841",
+      "trajectory_sha256": "02573d3852b2548b50f232e69b317bd247684319875328bc23da396973830458"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_3578142d13fdf093",
+      "trajectory_sha256": "ae206799b2aa2c0ba693b46b79e215c6b838568f2140fd5250d331e77bffedb0"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_36df6d23d03c6058",
+      "trajectory_sha256": "0fef76fc194f54da323d2b1a009e1270f7e30fcc1fbcceb98ed46dedb85cc006"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_36f7e7f47ed67d45",
+      "trajectory_sha256": "4a586d08fb99d900ba1ecf6d132860dec233ad61c399e5ddea8bf15c0a7fe652"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_37552ea08e7c9472",
+      "trajectory_sha256": "40c3b4cc1a52f6a959edc36f09ddc5d25a78fcf5c84520947ea3af6654b66035"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_38ab5a4d5a7a1899",
+      "trajectory_sha256": "522491636590e09daee93f24eca69922e3a0bcd33312aa1d32233bb91b9d1484"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_38c3bbb856955a2f",
+      "trajectory_sha256": "bd50e33596f2042328c143939ec4cd675c5d5a6f9d7ece3c7d62fbb6f50fe1c0"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_3a8a77343a787467",
+      "trajectory_sha256": "29dd5988edc39ead38f06e0a35a22daab2339ef5d9206335702419baccf7e420"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_3ca7ed88c4c3e0ed",
+      "trajectory_sha256": "befd2039e619542965fc427bb12f581ab8a392101c2febdca327abe16503996f"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_3e562e8d02cd56ea",
+      "trajectory_sha256": "84ca2b8598f785f5de368f553f6c0bfc11cbd89f81f8e91fbac1a9d56c1aab48"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_3e8a55d7ffe8ed45",
+      "trajectory_sha256": "ca2b707091a0a91bf34163af03969d2810fb7ca55df1a1395442d24184076c35"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_3f1dc37f34c0a862",
+      "trajectory_sha256": "4d845fa1f14d14cdfa1e64a1c7731ff6a4095446971c30371342955d701147aa"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_414dde44cd28ca63",
+      "trajectory_sha256": "a164be2f8835e9ae422b390ad0c2ef35ca5faea3efa05ce5cbb05f3ffe5497d2"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_42286b12028718f3",
+      "trajectory_sha256": "61e524cf2d2eb82e9484fc5741ad600445dd72f24afa827460e00f7779ca4e28"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_43200357c59a13ac",
+      "trajectory_sha256": "0b3a2695e4330c2af1874351af747634a92b866fef308deebc6dca0a6d10b8b1"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_43dd14af2510b9b8",
+      "trajectory_sha256": "cdb3f6e207029ce2909b1cd804752ef62f3e6ec6ebeb530bc99fbda7994a24e6"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_455108fc7f7d9787",
+      "trajectory_sha256": "cd503a7b877d2a4024dc99cf584785e1861a9d2db40c86628595af66992cfed6"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_45e5cbb11ed64569",
+      "trajectory_sha256": "cd13e61950655eeca3505fa8250bb849f379a13797003c057ed5871eb85d7b93"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_48903b3216edba42",
+      "trajectory_sha256": "b1f858fd4e804b75bc44c2948998e8da38f957185ae5d026b464f95247100e70"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_4915d3e567b830c1",
+      "trajectory_sha256": "39481140805e024a73ca2e322a92ca0b90cc5d5ceb90b3f0593bfa166cc05502"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_4945c8ca7d05247f",
+      "trajectory_sha256": "d9cdef691b684c4322484a254fd8c444fb2fe1bb01371b9a215dd2f4bc620c8e"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_49fa519ecd3100ae",
+      "trajectory_sha256": "36fe91cc8d333455ba081495a38d3a5efa75f141dd74afe6094e8969280a82f5"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_4aebbd78af388981",
+      "trajectory_sha256": "4f826696533ed60eea0957d4fe0c0c168aa8ce24ff668d9ea6d9912a145b6ebe"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_4b5f8e97ce544f4f",
+      "trajectory_sha256": "033534fc89917132bb9fea733e038cea7aa9db527a0492523156fcfb8e350c79"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_4c61db0386b1c9cb",
+      "trajectory_sha256": "46eebd06392e2e93d10a932589b6f83c4e5d6c33ce2b3801321ac1c3da3278d7"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_4f131b6261b1f7c1",
+      "trajectory_sha256": "4ee64691ee160145d0733d9f1ec610cc203d1701a20c4c405e67b8e82b72ad50"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_4f3fc391b36edd12",
+      "trajectory_sha256": "6115217a182dac427a71f146717aa9f671fa06fea29dc7b70eb5ac36f7120575"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_4fc1cbdf050380fb",
+      "trajectory_sha256": "e40bd37e2a1d62d63348d719c05cbdc346b5ac387aeb288b4950c60353244e1d"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_501c9a013ef1b37c",
+      "trajectory_sha256": "c422a7b9cb43e3e3e6f7608a6fd15dc7bc1832bf8ddd95698b2070ad0b3714e2"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_51da44daba087b76",
+      "trajectory_sha256": "43af88867ed23e33ecf6d35105d6befd04e7dd763aaa6dbd79178c53383461a6"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_51e69515d48359d5",
+      "trajectory_sha256": "ad9f0ff8e138ace12f959ff59627e4c197622c48de980b7f85d284d32ec81081"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_528e9c7e24ff66e0",
+      "trajectory_sha256": "17891c82c51dd01862ebeba9d8ee88255f767546ef65c19b941dc33fc511c0a1"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_52d6475213ee0ae5",
+      "trajectory_sha256": "42f547554cac26eb1489fcdbb43433395131b518c8a949551e27c3d07e0ea3eb"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_52d67e7720ecaeb9",
+      "trajectory_sha256": "e1d71c9c1016671c6c41a0acb8fec5f36cf4c1155b0cfca95cc3d3811da92bce"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_547722b5e54d6340",
+      "trajectory_sha256": "b279e531c8a55c5cb46e515981235b5872ac16bcb9862d66554d7c85bdf048ea"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_5b1cf18007285a21",
+      "trajectory_sha256": "95551495ceaaa32b6e6950e795eae8c087519e2706e5c419fe674943ccc10f64"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_5bda0d8ad7f516d0",
+      "trajectory_sha256": "bc49d2235b1e7526de0372798c3acf13d3c7ee747caeec2614877e86deb5e0fe"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_5c5cb6898f8627b2",
+      "trajectory_sha256": "c48f5cdd3ecff9985bdb32f08d7f8d6c78b0ba71b1f6b4feb22a1b1cad5a6b1b"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_5ed9a92fde77a0fe",
+      "trajectory_sha256": "8e39907bbead94e2bdeec9d70c122635e3a8085d4779b592d8389ce202663914"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_5fffa80e355261aa",
+      "trajectory_sha256": "478f109eb661b5845aae21f20d9a6b9174eb5f3c949c56159133d51b4db1c32d"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_618479edf1ebb0f8",
+      "trajectory_sha256": "77e757e3dcb69e394ba60d960628f4afcb356c8e51305f76e066026cfcbcf6a6"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_6229501cb643f263",
+      "trajectory_sha256": "14d128098f8ff8b8c7f315341b45463127d3e04da78c3a44dabf57d51554bc90"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_64058e62d3cfcca6",
+      "trajectory_sha256": "a8c0e104d492fb74143a1e207ceb44003aaae63fea0825fc0f725fe067b2169a"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_643441636b684e2c",
+      "trajectory_sha256": "8265c0483a42bcbd633d3b4a349eb1c7f5e2817eac6a052609d4aea25553e0b5"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_64d73c09f2e8e9c4",
+      "trajectory_sha256": "7935839110e1fddfdeda88a4da041c292e2512ab8574599622631fec87d31c8f"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_66b2640b8cf9a1db",
+      "trajectory_sha256": "48a2d1d219581f6b86c1237809551a272ba2603b1656bfc5f65dc587748bd998"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_6928c702b94ea25c",
+      "trajectory_sha256": "1f79fee56ae02b56e6b74ab98d429acfd956079bc2f95018881c6f7730fea4cc"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_69864338cffdf5cf",
+      "trajectory_sha256": "f0f772ea5044accbab1a908b0159b5938c32c5708a4067a1912845fae129f02a"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_69eb599706da98dc",
+      "trajectory_sha256": "fa3912f87d9fbad640c442eb5806fa5353f1e7232dca240df9233a26fe61df3e"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_6af3ac6383d964ec",
+      "trajectory_sha256": "8d2410b91d314885736efcd5c152da39ad0f9e253db7519382b8636af2b914e4"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_6ba684baff0ef9b0",
+      "trajectory_sha256": "5466d3dadc1852706aa4eda7229019db409b66a9d8e31aa3215b537d576afba2"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_6c7c12afe183aaca",
+      "trajectory_sha256": "bed7481f8b8cf615d382a2b12a5f549d65be1a61d09a7e25be7f7c5f46c976cd"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_6e269e0e1e6f0aaa",
+      "trajectory_sha256": "d723d205b7c27b7b0973e333a9b5cab1b57980d81bc02ff526999cbe46b13b8c"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_6e5748194414187f",
+      "trajectory_sha256": "9ba9107b5cac83afda2a5f478465035f7a3bcdf7c79c7446f7545dbd9c170f38"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_6ee92775380db404",
+      "trajectory_sha256": "b9a4f27179f45f7c38057d7fa85b088381a21394138a293c308d8f05036a7b0a"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_6f07f4d67bbe3e76",
+      "trajectory_sha256": "e3fc4fabf3ede263c05faa8a4976500c41eba89d50de98b7d6fbbd3f7aca9fd1"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_6fdd873ee9004eae",
+      "trajectory_sha256": "a17508d63ac4ce7684805af746deaa101306a56e51e9fda92ce19efb84fd9761"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_70a55f937ee8fb84",
+      "trajectory_sha256": "151b9d2d8bb6e3d76f136255653452a5765bdafd5f0978787ae5cd2f1f5ab18f"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_71654d65848e42b7",
+      "trajectory_sha256": "bb82a83f2cfe8ac517e038cc691d8c625e501ed47f53f5eb27a422c930354941"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_71928666eb238459",
+      "trajectory_sha256": "fdff976fe925fb7a14d79e544d27dd4a94b61284fbdeacad5d1ab709ac1946d9"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_72c67da7995ae11b",
+      "trajectory_sha256": "d25cb723d774f2b5768d3ed28d8b1fb7812564a13aa9fba5e589c0c498b46bdf"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_733d70fb96a3c98b",
+      "trajectory_sha256": "3bfd24978d572ffa6d743306049a14efc30c6b1dcba411e690686112172d62ad"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_743d2a91b5bd0b91",
+      "trajectory_sha256": "283f7479021ca9cc726145fa55a928df91b6c8c9c66884799dcb8122005e2bd8"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_7464a01655aa9674",
+      "trajectory_sha256": "65b671b143b101b040f2e6aea90e82afdeb56acab6f615b8c618f851636b2fa7"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_74b70eda73c6eb51",
+      "trajectory_sha256": "e2a47a59c56bebd70acaa42bc4472b0872fc3ee0f7be26a6800ab28b1c735ee6"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_753d68e356add7c9",
+      "trajectory_sha256": "11dd8c4a4087c7e33fbc2730cf7a1ad6c3f850ae8533aead1787eb081213f8dc"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_75db66646992665c",
+      "trajectory_sha256": "caf0defb9b29bcb8315a203292ebf28fd2ea3c9c73b966c4cc2b749808159784"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_7811920d309313c5",
+      "trajectory_sha256": "3a46b8ebf97bd8ef4465ba6fac4d8c4e1d83cdd4548b8baa28e63a266d2b132a"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_79ef57955637f551",
+      "trajectory_sha256": "b776c5ed96deed64e506763f67670a0b60ab33de4fd63112f87f90ea531e18df"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_7b2f7e982c40abee",
+      "trajectory_sha256": "7464c7eac84067878c272d78dc310a31705fbe59fe71d3153d3f9ed447125251"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_7b9d3ee0ee228ad7",
+      "trajectory_sha256": "487f668c7ed5651408481e5c1335f91ad3324f1e597d25aeebffc676bcb817f2"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_7bd2f7fd957b5df0",
+      "trajectory_sha256": "343621213ca0e11ebaff1e420be43ba3c26d18c38bc7c166c65a7b2ba5c1cffe"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_7bda2329528f19d0",
+      "trajectory_sha256": "76b366b239a590a43d252c44081a7de6a3c8d8328a75ff926172e6cf396da25c"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_7bfff1dd93dfdb57",
+      "trajectory_sha256": "b36fd03c41b4af83438a1fbf30944b877063136b00772cd007b6eaed359fff24"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_7cd0d2f9bc3d5568",
+      "trajectory_sha256": "4807ccfcb5ed00655c7e7a4b4523392fe9e5253deb1af7b221a3adf16b2d2a27"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_7e14d486547f1fdb",
+      "trajectory_sha256": "b848414435af5fbf363e7cadd7b4196e250ec4175aafe8e5864740f6d62f0400"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_7f4f7c38647bad62",
+      "trajectory_sha256": "91b8f572985efd390edf8ea6a09bd480703adf40d591ec2ade68d271e85b3e1d"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_7f51439a19a4db89",
+      "trajectory_sha256": "dc45096e88bfc304c9d058dabf58607c91eed24d7c8fc410085ab11db18ecd8d"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_7f8dcb0654ac6c30",
+      "trajectory_sha256": "b2f250699da0ea964209f8cc880c3b36a16aef6bbeaa7e12e3370150bae32880"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_807d76127b047db8",
+      "trajectory_sha256": "ed75057ba522d919b36cff622b4033212c796fcc6e3b74a4e383cef51ec44712"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_81bfd2861eedeb6f",
+      "trajectory_sha256": "ce7741d4c471f6ca4d861616abc05f6b41cb463707e632c8b4a8369be6a5bbc1"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_827d94247962b896",
+      "trajectory_sha256": "77bacf84d1a3aedddcfe561baa55e84ca5df1afa17808db51a7cef53a79bcc4a"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_857f44625f8bff4f",
+      "trajectory_sha256": "994c73b847f8f908957fb8c54913f962eb2f76b5278163059ce34f23a374f3ca"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_8586d54c37ea3b47",
+      "trajectory_sha256": "a1f581364a29caa3c37bebc390c8871561fd3ff813f664b88a7b33e55560fa83"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_86a04c005f547376",
+      "trajectory_sha256": "f7aacdc51b776181d2df96ad307992c2c6df9b90b06b089f8b4a2988a318a050"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_882e369f82232c9d",
+      "trajectory_sha256": "262c78ba41c6f51cba87664e70ddb2d92f53922a0dd3a44e221e52c3fb4f6779"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_8848249325588abe",
+      "trajectory_sha256": "c36bc51608e413ced1db5d8b8539112bf6edb1a2a6ade418827ab71dd8e6701c"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_88a6a0dbba08686a",
+      "trajectory_sha256": "27bacf529493090a8c53d91657768fe08ebda8ba139ba376b36d0e5306cf0937"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_89538e74e268d9cc",
+      "trajectory_sha256": "3edcd8f4ef1625e87484c06eeb7f42b0aada34181f5e0723c7bcbe087fcaccf9"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_89e4b0c68d75a084",
+      "trajectory_sha256": "482076b1d0b30a29a010941a96f72f1112017454c39b5b8b046e27ae56b4fbc0"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_8d555888196194f7",
+      "trajectory_sha256": "0567710f637fbb0922c829c5941736a96d481f1309ed8ed54bc8233963bf3b66"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_8d75944a5c498faa",
+      "trajectory_sha256": "c340b2ee3c3c466619f4a53803d47b7861543efd1cd3b8353147e6441acdd1db"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_8e80dc1e186ac01b",
+      "trajectory_sha256": "206dad1609fae4aa9072d8230fe4ed2ff1e0454487cb60a095119240a157e6bc"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_8f33ea365bfec2f7",
+      "trajectory_sha256": "77347a687e177f7a55cdda29563ead0f315ee241400bd608123fbf63e59d3290"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_8f7df56ce51e1a2a",
+      "trajectory_sha256": "5fca877abf5a96fff1df552e8e4c94e2878ace198a0e3926b8d7360897821fcd"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_9033407f3ecc7c6f",
+      "trajectory_sha256": "7ed0af012510c01cd5b13dcc232fb430ede01578983f63652fd3ef84e96e61a9"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_90e945667dfde24b",
+      "trajectory_sha256": "0d8d3b6d20780375dd2c13cae9fd61dafea550425077d5402f8551a76bc246ae"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_920425a734b4cace",
+      "trajectory_sha256": "be64a4ed36b608796c4da646cce79e1c8ea5ac19a10c9d6789b0b8c633910e89"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_928dcde7bdfe1edf",
+      "trajectory_sha256": "7b737ccf244e74112665cb2fd90ad1ffa02a33ddc49b4c920c886dbbbda28165"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_92aceb1963d8c24e",
+      "trajectory_sha256": "ef2171b9f989a8906403377dcb008367af1b1f53ed631e7aef53b27303fbc868"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_92d01330ca208487",
+      "trajectory_sha256": "eb450012b749373b75c5d9d64e5e4b0c96e005a3ad60c2af7e1297310ed90c06"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_93bb7a28d5089332",
+      "trajectory_sha256": "0432cf29e2ba73f0367325faeea1ff347b209dc125e07df5b20eb0b749d19152"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_95313a5c80083098",
+      "trajectory_sha256": "0fd98cd9112028a0937788c0c8863cc30703268a06135067f1e13170654c1ffc"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_95941d744b4d8e18",
+      "trajectory_sha256": "6d2fe23b7b2ad184085a7999801a4ce77c535a28997a8634558a29d819a2822d"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_95ef744b26e37712",
+      "trajectory_sha256": "4624167d273b227b4b9493927071edcd5c4b0fdf6461b3fca95f8454d9458a84"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_97171269b37ba979",
+      "trajectory_sha256": "8aea00161a5eec458201cdfae0c182f7955e607306735a8b3b9195ee0e8a2f01"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_97c533ccddd2dfb4",
+      "trajectory_sha256": "ebb5df24004ba3f2da1cec96e4a26395b929499e1425f3ac5225164b1f0ab8c2"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_9931aa312a6e66f0",
+      "trajectory_sha256": "0b983e89fe1698c94647829378ef0899dcddd1eeb90a5c121965a0a439e57882"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_9adb5dd3f1f916fc",
+      "trajectory_sha256": "77d1b195ffb948fa5176780aa326aede195cb925d1b1cfe4cec1367da0b85864"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_9b58952c5aa3bdb3",
+      "trajectory_sha256": "2b3c89630cd1c3dcfb206045385ece6aed3e525395b59398b48b4c0695d6f215"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_9cd1b1598a94e73f",
+      "trajectory_sha256": "0cb1a8e0950a1ac0a02ed9c5e32fe3803c4c7af8784543c9983e8de9cfb7ce15"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_9eac3cc6408a5132",
+      "trajectory_sha256": "68c72b699940405add574c6063b4c1e28eb173bf9f6e3c9c41bb34739bede6e8"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_9f42371410abf29b",
+      "trajectory_sha256": "e22c1eb2e792f42dc3603cdcafcd93e3b164665a185cded0b3bc2d7303e8806f"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_9f94d50a9b31be1a",
+      "trajectory_sha256": "148fc5150dd198b596671a09031a869f2eb9afde0a678fb7db2f52332a9c5ff5"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_9fa2919ed75870ce",
+      "trajectory_sha256": "45359148283c8835ab01f34c259869b68ea96c0c0cda70102242f6607bf78670"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_a0c4500311e8a435",
+      "trajectory_sha256": "8eed4285468dd22fd57d8bd729d425634f73587ac64f70931159dc3dc3dd299c"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a2408c7ccd5beabd",
+      "trajectory_sha256": "59e253a9eded9ab5265dcdf4a9043b90d150701624542a12fe27b621c6430d7a"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_a2eab413bb586b11",
+      "trajectory_sha256": "782bc9f6337a3fb2c23bb6e59b20be3e5b8c6603db56d92216165346c652c19b"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_a3abe998c2971e68",
+      "trajectory_sha256": "73c79eb2e7e0207909e4c5541a8640f534d88934245c85ad509973e666a09eb0"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a3b150fa15dbf248",
+      "trajectory_sha256": "e41bcece5de2eac63bac7e2c21b81acc2b26c7eba54e602d4fcc541e9ca16b31"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a5236351d6b1ea23",
+      "trajectory_sha256": "34b787f175d9d0c22508e1de484092b605e7724f767ccce87a125a67a6b1b114"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a6672ddb59ef6ed5",
+      "trajectory_sha256": "9f394e416bb51765bd30dff6780f19dd56dcc597872912f20a83bf4a7cc82eb7"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a6865d6e288f574d",
+      "trajectory_sha256": "3a06bf3d157d6b6edf505fe79a2ce41d0e67842df5daeedef4dd5bd11b218993"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a6ae432cf1f717df",
+      "trajectory_sha256": "87e091ae20649c109d39035d95693a7cd142a22f93926ecbd5667d8ab64ea920"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_a6fac81c254d020c",
+      "trajectory_sha256": "3935075f678ef1b4df4f65c6e864af380f5a2295b037e4b6f70de382a7ab4939"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a7180606f08b0b04",
+      "trajectory_sha256": "4eaf7d597e34d84a885f7d3892c6df8fb8e6b1be8d578cee7694cd82aacaa323"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_a7b6bdd94350d119",
+      "trajectory_sha256": "5776cf5f6e3a6fd371ec8499c5c8a52bf3dd7d6684a26eabaf7597f3b3cd9002"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a8d3fdb4e519e636",
+      "trajectory_sha256": "fe9c829f2515213804f2af57cd6393f28ab3e97ed9ceead37791da181e800aa8"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a928c65aa083d06d",
+      "trajectory_sha256": "4233410a0fc7117d4a59a522487cbb6d56f84362df89a1f3e4e0cfd3cb69006b"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a96dfd81cd2d8acb",
+      "trajectory_sha256": "304240077e817f0c9814e2447b5b85865018edef19c945bfe72358c38aa264ee"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_a9fce198eec44bac",
+      "trajectory_sha256": "0862bb44a8be7b79481ad94d2ee4a215690ffe6493ba3eecfd15facc0ad10c54"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_aa6876fbadf35242",
+      "trajectory_sha256": "79ad82d5534075561b05a3ecb0f30122efe4d45e18a82ad3eb5e8d0af2d15800"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_aca68f9ad7c9ae65",
+      "trajectory_sha256": "2f80d0b4301ead4d2a6fc1d9e68bc9069b2abc728801ca29bbf0815669820000"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ad8d36fb7d1dcc67",
+      "trajectory_sha256": "9b125c1b04661d11336cb7534dfc68839ba566eca7e8f5670db94879ff1cb1c4"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_adf88d01391afe1f",
+      "trajectory_sha256": "4dc35cfc4f6c6aebb241177bd5439cea2b37a4e448082a4254e84f5dc43a9fae"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ae0aa52e2b50a7a7",
+      "trajectory_sha256": "ed00334096cff11692784495c8ba20bada088aa7e9b7f16e6c4d59b5113bea77"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_ae1d4911b9b260d2",
+      "trajectory_sha256": "2a999080cb58498f1550ac74b17571ed6555d9410abf2c9c2dfb5b3b1b25cfd8"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_af4c3c885c98be18",
+      "trajectory_sha256": "5c8c1f71b9b482d79f35de10b7ccd05149a74accc9093fc6996652458b77e347"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_af5dc2ba0fbc0a31",
+      "trajectory_sha256": "31b4130ca03d42f43118a24ad67732e6cea7f92cee6eddd14a34e605cb7aab62"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b01be7fa7aa89c29",
+      "trajectory_sha256": "a0f7abbeefcbd146d8a1b0bcb765a0133996d36f9eee844eef4d8af8938a8eb4"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_b0858d27088210ab",
+      "trajectory_sha256": "e1f2fae457f9e6ac2e84eab4226d34e196d28fef2ee773f4106972c501413ec1"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b1f4a6ae8b8e2c0f",
+      "trajectory_sha256": "a061d9a8e57495f9dde8e1eba619e6578a54deeeea320034acd0568ab84dcdba"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b2075289350dac5f",
+      "trajectory_sha256": "425e97f637b36ddb009b84dfef7501f6c9852e7484c9c2690430224b538a6895"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b24e146232fd94fe",
+      "trajectory_sha256": "b53cf5500d169fb145e424ed5c459b4762d095d7ff9a2c0151d808a72827bb73"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b268744891f3e8b7",
+      "trajectory_sha256": "d94ffa2a66cda02ecf93090b4635941c7a78b709a4395a0c7dd2a0995e5405b0"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_b4b881c02e6bf134",
+      "trajectory_sha256": "b69d6b2dff43604d0cfad24b0b45bb0c1f48278e47e930434c4d62adc890df32"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_b592d4583e4c30b6",
+      "trajectory_sha256": "05c88f9c6a3abc047f98da045bbc7d25c34c82332f15edcec80a1570ce22ee2f"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_b60b7de742ac0b77",
+      "trajectory_sha256": "4385b3495e45ffdadad512e26a8f6593d1b363fa8b0b01ea43a723e8b41c52d6"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b7414e754a4a4cb9",
+      "trajectory_sha256": "b8e05617694cb547ebde251dc7a0aaaac072ab87856c8c5294b9f34e4fa8cc30"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b7d1190d6254a46c",
+      "trajectory_sha256": "2d1e3f6dc89298c7d0e514c90f84136258b982e3021abf10df61300771bc36c3"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b987ecf89636ec22",
+      "trajectory_sha256": "af05897264a1ded59accb5fd47bd010c29c52a992fde4b25f6d80d5a0ed6367c"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_b9c0d92b35cf11a0",
+      "trajectory_sha256": "6d0942036a9fb30723b79881cc82ea90ba7b24642d6faada91a2560db9af318c"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_ba1a094f0c32d17b",
+      "trajectory_sha256": "b7fb26a92fabd64bd013eb47b7ed0d68b9f2ea4246aec70efcdf8dabcd7d93c7"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_bccf1d7142550531",
+      "trajectory_sha256": "99056f3080b6aab9bfd4666deeed6c3c9b271deb3ae02df1118e8dafa3ab6b40"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_be2b6a452bad8b95",
+      "trajectory_sha256": "904a2a620a0f44ef3e6cbd87700ee55c1da2072725bb04f07e7b785ee008ebe7"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_c0e370dd7b55ff8e",
+      "trajectory_sha256": "434a81c9af41192bbb7146022e830fe1dd7fc485b487987385d0d4920ca0345b"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c16ee581afc36e8d",
+      "trajectory_sha256": "1354a3529ca1d10930aeaeada891a4b7653bd2e73b9b84bbf4ce94801050ef66"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c1d8bae1c03a95b8",
+      "trajectory_sha256": "e2d6c8113ec86ae30be62b430be2585f8d1295b933acf81c5990654180d9a69a"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c1dfb6bb352bd957",
+      "trajectory_sha256": "50ad9dcec0154b982a5c611c1688c1ba6611e25e688526f6286a87685d1a5b2f"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c3eb78de22b9fc74",
+      "trajectory_sha256": "6dd99c7186de207dbe891d2d3e62a68bd5b65f2c1a71ec720b8b686f2391bdca"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c4388cd634c9a4ea",
+      "trajectory_sha256": "0638f3694af698292f157ff2a299020236ce375f7634b67aa524b88c7bddee4f"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c4af083e94eb6176",
+      "trajectory_sha256": "9a9e478d722c233e176de5e3a16e4c5ea7eb7be9c44acd5e5ab93266aa086252"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_c5a59179fa84b311",
+      "trajectory_sha256": "b1332b1f576133036850375fef1537a6ac4099c7a640b36c61409759762f82ed"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c5d0fc872845df48",
+      "trajectory_sha256": "e25a05020522cb0c15e4de49bb0fac0ee530328d0c0ccbe49986b48db56e1a4d"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_c671187379223aba",
+      "trajectory_sha256": "580bff6f2b18cdec8074f4c2c5a711443f679180413181b0fe713578d0491514"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_c6930e7c7ee77699",
+      "trajectory_sha256": "867685db8ce4fd93b9a0f960ab483026e7d36bdb980286af1c7e383ad39a3a05"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ca789d3e00e8f08d",
+      "trajectory_sha256": "17f7c8804e7a3ec9c13d91bc34f7b5c4607ef6aa01d766755b04ea3ecd94640b"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_cc257bcc6791828e",
+      "trajectory_sha256": "2aa10b8c82326cffe7304c6e4f27c6a320a8c854d58c615056ade28c198a9d38"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ce043209a7f78943",
+      "trajectory_sha256": "d71d903a5e7d9519ea56a65490d05b2a6cf341ebbd644896d094515fc747a78d"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_ce0951a0d490750b",
+      "trajectory_sha256": "3d458e5d2ae576892f6f0a6bb502daeec5172367de398b62930ecba523e45db5"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_ce6b1ff6c917c5f5",
+      "trajectory_sha256": "47d2ce5cc4815b0198fedbc0f41c5f601e6737d42bbeeaa0d47c66030183a9d9"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_cedf6a3f0a420912",
+      "trajectory_sha256": "a6c5566d08e6b7135cbd86210b2aa959849d03a844e32309902f94c358970243"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_cf23270e333014b5",
+      "trajectory_sha256": "0f91267569a633e218395cd57e3fdaaf33189897404abd38a18632c2c6128ea6"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_d05db7a34a8ffa89",
+      "trajectory_sha256": "969e80a97893425a4ae2524fea16ebc335dde32dbcb8b6ab788757f3461c28aa"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d0bcab6d5f0926bf",
+      "trajectory_sha256": "c015a3582070a2156ac9586fed5d7db39fb7947cc659377db7b3b501345368a7"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d2cce0193cc33aec",
+      "trajectory_sha256": "df8d1515f6cdeb4b5b20e841ee8d8c6d5884c39da7bbc476fdda5ac6b571cd76"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d34d778b02446264",
+      "trajectory_sha256": "bcc1dee10a7355921c00775d01d68ac0c5dc47456c737571679d3d07a8111478"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d35e94c09883b6e0",
+      "trajectory_sha256": "f0e1c9a0a1a9a6e62b8b3f303ebfc91b799aecde31b2a97253a737897a2e8407"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d3ce47835f8836db",
+      "trajectory_sha256": "1875df39b9f96bdae0933b2bcc09b844e95b3e2adcaa6fc116d412ccf5c8b937"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_d5fb19bce5ff9831",
+      "trajectory_sha256": "95d5b8af4b7450dc98879d5bac0cc24d608886d52559a3f5634c191ced12421c"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_d61f96b8c499ca3b",
+      "trajectory_sha256": "51b2609d5b55143081f644a467f51a0720fa6eec272cecb095b2f27a1a02363b"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d6d4a147acd108f9",
+      "trajectory_sha256": "f7f418f7da9731bef24de82b86fdb991579ff41a0b0b368e963c9d8a52dfd238"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_d6ddb1dad8175326",
+      "trajectory_sha256": "81d8df336166fa24e90732d43eb8b5a59886cece371c6ca2951c001e02f8ebed"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d71c57c407b1c922",
+      "trajectory_sha256": "bf08033750d99b01002d56e0a87395a86f744d12406619db00759ca5c4a0b516"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d762a031f80d9f1a",
+      "trajectory_sha256": "577e14359c474acee3aceaf472523325227e10b2819efee92b569c32b332d802"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_d776f8cb2497f897",
+      "trajectory_sha256": "351ddfec969cee4d80ace96d49d7e66cbbb48f24551a44a26c5fca0ea4ea7c88"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d7812f9e13173d32",
+      "trajectory_sha256": "1fec9e080bbca05dc376f7c82a16f4f946a1481ec23c7cfd5dc3d8a508b3ad90"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d7ef9af075999634",
+      "trajectory_sha256": "656174b6ef96183aba19e2c984e96dbfff239a81e32685cb0c9582b1390dfb7a"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_d9a86fa3c1cd37c6",
+      "trajectory_sha256": "1b0edf7b61631876e714908030727c527e3f1c2f0f9c663a4f4aa324f1d8a74c"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_d9f6a495d99ae014",
+      "trajectory_sha256": "8967ae86a6cb989dd633b3dac3b5764fdf30e8164586560c1f9f3cf702cea4a8"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_da55bba028f9956d",
+      "trajectory_sha256": "24f6ff56b4f73372bd5e7ef630186dc09d9ab035afaebf70edcab664fe8d88f5"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_daf379ea909d3b4b",
+      "trajectory_sha256": "9c9b43496b96fa45d788a71bb1691c5eadf83faf5e3d6c673a954dc96fd99642"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_db318fa0e6e2fc53",
+      "trajectory_sha256": "49fc4dc02d2b96144fa6360a294be31434e3346a0cd0fb84ad59edcc3ebc18fc"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_db4ac4a508439369",
+      "trajectory_sha256": "224a96dfee5e61a53066c740bf15310dbe04a72cb81559e20666df0405126967"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_dbabeda4d2fb2d1f",
+      "trajectory_sha256": "152a0bb39f859fad820b2505199e5249fd94618245fed08e0c1d305b70ac0f66"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_dbd0a2bc0a2883ce",
+      "trajectory_sha256": "2f6c707bdb5a3ca89c3727da9003bcf0b53577bb10ea1992e882deb3765a14bf"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_dc19d126633d870f",
+      "trajectory_sha256": "c81005ac0cb4c877187e7984edb3e41e8b1df9f42679e77fb1950e05f148c5bd"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_dfcbc9e585801cfd",
+      "trajectory_sha256": "a6548ec755cd058b7e1e2f2aead8e86be1583d00ab02d00da2208aa08fafa5ac"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_e08806572517095f",
+      "trajectory_sha256": "84f1c1397e04959fa988be9158b9d4848f703e59698b5ee72bcaf618d84e7eb3"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_e217b8362badc369",
+      "trajectory_sha256": "d747aa318b2839a04ba7c20f7f5feb49fb99cbbd3f9897006c9e885f7525c94c"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_e264898ceae8af7b",
+      "trajectory_sha256": "22cdbe78e3addd3b72d5ec35aeac2f2b07c64ad8294e9ea7ff9cb5790acbed6e"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_e2f9054b0532b05c",
+      "trajectory_sha256": "96cdff044b0f1f1bdf34c42600d314ab20f89ba92227eebca2e657c03efca41b"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_e3cfe6a13e06635b",
+      "trajectory_sha256": "cf31fb5e6cadc44b7602bf44bd52e5dedcf72124f5ae88fc87b16d88c2875b95"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_e631ffb576583a8b",
+      "trajectory_sha256": "8d7082338195c393c54fd62ab74f2226e4f2ba5db758b16db3f61d41d8b18c8b"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_e797a4c8ad1539b5",
+      "trajectory_sha256": "50bf83328600c06abf0b445771ca99d6162544f1f807027c6add82154d912f19"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_e7d7d453d2caa012",
+      "trajectory_sha256": "8a62a533c8f982695ed36c03358f0bbb2a5ec9d9f0fd2daeec979cdb96e95026"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_ea06ef68dd02d6d8",
+      "trajectory_sha256": "9f0838667b442a0476d68b23482c88f38e764c380ac36c1042d5b6d6212bd77e"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ea25fce3809c34a5",
+      "trajectory_sha256": "26ecd5ba574b3c313339f0d444aecd3e0a2a93b7b88ca6291d310a5c746b1cf1"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_eb33055626b3ca00",
+      "trajectory_sha256": "37a3ae386815bbc6e876ac1658655ad9ab65808932ed6c4eec714d0957e000cd"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ebbd357af644d165",
+      "trajectory_sha256": "132cda1fbe82e1ceedce98c04f6d8a90505f770ec44059ff28a8ee47669d8859"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ef044c4872987dbe",
+      "trajectory_sha256": "a8d25701e7ec4a5cb5e2a4d64d78f9d33a25b0f115f6d54d01d937882031d60f"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ef2c416d06f200f8",
+      "trajectory_sha256": "c5c8cc67ed6e2728d27ec54ef2cbf49df4a21bf37529843ec2021e840d3e2f6c"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_ef455a8989125d6a",
+      "trajectory_sha256": "007763759f55aa5ca871069a94a4cff2688dcc9c8bd20132f4957eb6fece2659"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f01c21fa896f6945",
+      "trajectory_sha256": "fe0e2fa75f323e474d706cd246f737d4629dc8886bd578368d80dbda60752111"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f01db72eabaf3a54",
+      "trajectory_sha256": "8a878d6bd06b1c5a0ec83ea65e66205deccc8fd613d0e3554d3903434b1c758a"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f40126ca2bf8084a",
+      "trajectory_sha256": "b3313ba0b4dd6b91f16d82f6439d3ac3f51a52eb62d29b58704fad7dbf1f2d0d"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f470713b28e27738",
+      "trajectory_sha256": "b8ec2c13acd062c21910624cdcb52ac00a3ef059da4b68e5bca587fe469ed6ed"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f4f381bf0777bc01",
+      "trajectory_sha256": "8b274015c6611a25c6f61f4ec9725e70e6203dc57bfedb422219e584182b2977"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f5230bdbb53c4871",
+      "trajectory_sha256": "84391a4a17bf7a81fd7ca5f63dd402e67c6eb02860c43e41c1f3add86aa2eb75"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f5d724ef0f446f1f",
+      "trajectory_sha256": "76d5c6e33ecd2765a28200c1f196ba51e51232993cf03a44977ff5759e529900"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_f7d3045ac7aae2dd",
+      "trajectory_sha256": "7ef9edca40fe8a7b8a0068c4af7d92bef11d184d1fe9c54c539103571119ef98"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fa4946b4a4b4d447",
+      "trajectory_sha256": "3401d1e6cba9c2a48c37bd22acf4d0c30df9de9ac517f9a6282c9c927a651d6b"
+    },
+    {
+      "domain": "tooluse",
+      "producer": "rule_based_tool",
+      "prompt_sha256": "c5253944e08eab9d42009ecf6a11ad7890d272aa6fb72b369a5ac8b715d4209e",
+      "task_id": "ml_fb2a66423eef12df",
+      "trajectory_sha256": "0eb1b8a0b93aa95de2b748325e0c50e5ddf75db5f50ce2e050ee32ac09c21e5c"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fb4b08b59892012f",
+      "trajectory_sha256": "8a91b4bba6b8c9d25731e4244b31cb23362e15e8b4e5add40a37c6723d97d0fb"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fb71e729f91475ea",
+      "trajectory_sha256": "990e2b92855b42245462871d654890fbc655403892b455f79a52fc433cf3214c"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fbb82ee00738fd44",
+      "trajectory_sha256": "cfdae5ff13941241d3a05eb9ddbf61ec90559fd770d1bc448beb4dc4be53e4c4"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fc895b32a4dc0d5a",
+      "trajectory_sha256": "a0dd2f869f56e7dd878d0a763ef968a16d7947e49c073397744b9dab70889276"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fdb39f4fb5f9be0d",
+      "trajectory_sha256": "e49bcb2dc7490c2ae84bcc73762bdc4faba228861b97c8ef5ff9ab02b42b8b22"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fdc00b8db48ecb10",
+      "trajectory_sha256": "0edd9951db252ade6574591434c1c9defb1172cca0674976de9013ecf8a0f643"
+    },
+    {
+      "domain": "trading",
+      "producer": "glm_5_direct",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_fdefc584507ea0cb",
+      "trajectory_sha256": "f964d9ac2ac37f14856cfc06b6184b6a6564d5a5d2fcd1fd27144a54b0b65aba"
+    },
+    {
+      "domain": "trading",
+      "producer": "deepseek_v4_pro",
+      "prompt_sha256": "9cb89c85a77342c4a86954742743673547c3a5261f4621dd9284259b24c3bef3",
+      "task_id": "ml_feafff26163d436a",
+      "trajectory_sha256": "e4c219877c91bf098f0ee9ce2f5d882d86b31f4489102c122366d4cb4ff818c7"
+    }
+  ],
+  "tool_triples": 40,
+  "trading_triples_per_producer": 30
+}

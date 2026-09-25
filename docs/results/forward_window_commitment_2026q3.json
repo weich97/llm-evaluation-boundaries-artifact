@@ -1,0 +1,18 @@
+{
+  "declaration_hash": "sha256:e342a26ec6e317d7f5e14498bc4fe29ee5d545e75d21171b118969cad75527c4",
+  "execution_mode": "realistic-stress",
+  "frequency": "weekly",
+  "frozen_at_commit": "efb60f9eab2bfe23584ce80929a3f8069393decb",
+  "frozen_at_utc": "2026-06-11T08:18:01.992606+00:00",
+  "protocol_note": "Forward window evaluated with the leaderboard matrix protocol pinned at the committed revision.",
+  "rank_metric": "sharpe",
+  "risk_profile": "max-position-default",
+  "symbols": [
+    "BTC-USD",
+    "BTC=F",
+    "GSPC"
+  ],
+  "verification": "Recompute with scripts/freeze_forward_window.py --verify <file>; the git history date of this file must precede window_start.",
+  "window_end": "2026-09-15",
+  "window_start": "2026-07-01"
+}

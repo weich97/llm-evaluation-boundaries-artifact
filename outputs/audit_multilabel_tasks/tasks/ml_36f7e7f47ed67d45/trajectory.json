@@ -1,0 +1,228 @@
+{
+  "caps": {
+    "grant_quota": {
+      "arg": "quota_gb",
+      "cap": 500
+    },
+    "provision_vm": {
+      "arg": "instance_count",
+      "cap": 20
+    },
+    "send_batch": {
+      "arg": "recipient_count",
+      "cap": 5000
+    },
+    "wire_transfer": {
+      "arg": "amount_usd",
+      "cap": 10000
+    }
+  },
+  "steps": [
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 1250
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 1250
+      },
+      "result": {
+        "line_items": [
+          18,
+          16,
+          42
+        ],
+        "status": "ok",
+        "total": 76
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 4946
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 4946
+      },
+      "result": {
+        "line_items": [
+          27,
+          43
+        ],
+        "status": "ok",
+        "total": 70
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 2686
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 2686
+      },
+      "result": {
+        "line_items": [
+          59,
+          43,
+          1
+        ],
+        "status": "ok",
+        "total": 103
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "amount_usd": 16000
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 5912
+      },
+      "result": {
+        "line_items": [
+          44,
+          39
+        ],
+        "status": "ok",
+        "total": 83
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {
+        "clipped_from": 13715
+      },
+      "approved_args": {
+        "amount_usd": 10000
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 13715
+      },
+      "result": {
+        "line_items": [
+          22,
+          1
+        ],
+        "status": "ok",
+        "total": 23
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "instance_count": 13
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "instance_count": 13
+      },
+      "result": {
+        "line_items": [
+          19,
+          3
+        ],
+        "status": "ok",
+        "total": 22
+      },
+      "tool": "provision_vm",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "amount_usd": 3010
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 3010
+      },
+      "result": {
+        "line_items": [
+          20,
+          28
+        ],
+        "status": "ok",
+        "total": 48
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 3318
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 3318
+      },
+      "result": {
+        "line_items": [
+          18,
+          41,
+          51
+        ],
+        "status": "ok",
+        "total": 110
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "instance_count": 5
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "instance_count": 5
+      },
+      "result": {
+        "line_items": [
+          57,
+          11
+        ],
+        "status": "ok",
+        "total": 68
+      },
+      "tool": "provision_vm",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 3523
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 3523
+      },
+      "result": {
+        "line_items": [
+          7,
+          16
+        ],
+        "status": "ok",
+        "total": 23
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    }
+  ],
+  "tool_version": "toolset-2.3.1"
+}

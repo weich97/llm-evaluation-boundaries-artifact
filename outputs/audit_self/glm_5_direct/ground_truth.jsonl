@@ -1,0 +1,120 @@
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1000, "step_index": 13, "task_id": "audit_0000_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1001, "step_index": 2, "task_id": "audit_0001_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1002, "step_index": 16, "task_id": "audit_0002_provenance_drift"}
+{"detail": {"original_price": 153.10591616559884, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1003, "step_index": 16, "task_id": "audit_0003_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1004, "step_index": 13, "task_id": "audit_0004_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1005, "step_index": 16, "task_id": "audit_0005_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1006, "step_index": 11, "task_id": "audit_0006_provenance_drift"}
+{"detail": {"original_price": 105.14118564570592, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1007, "step_index": 2, "task_id": "audit_0007_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1008, "step_index": 16, "task_id": "audit_0008_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1009, "step_index": 5, "task_id": "audit_0009_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1010, "step_index": 21, "task_id": "audit_0010_provenance_drift"}
+{"detail": {"original_price": 136.0362388840172, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1011, "step_index": 13, "task_id": "audit_0011_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1012, "step_index": 10, "task_id": "audit_0012_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1013, "step_index": 15, "task_id": "audit_0013_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1014, "step_index": 16, "task_id": "audit_0014_provenance_drift"}
+{"detail": {"original_price": 121.58114460264092, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1015, "step_index": 4, "task_id": "audit_0015_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1016, "step_index": 11, "task_id": "audit_0016_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1017, "step_index": 16, "task_id": "audit_0017_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1018, "step_index": 12, "task_id": "audit_0018_provenance_drift"}
+{"detail": {"original_price": 118.55608915674345, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1019, "step_index": 2, "task_id": "audit_0019_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.0, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1020, "step_index": 3, "task_id": "audit_0020_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1021, "step_index": 16, "task_id": "audit_0021_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1022, "step_index": 4, "task_id": "audit_0022_provenance_drift"}
+{"detail": {"original_price": 148.6478229275766, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1023, "step_index": 16, "task_id": "audit_0023_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1024, "step_index": 0, "task_id": "audit_0024_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1025, "step_index": 6, "task_id": "audit_0025_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1026, "step_index": 0, "task_id": "audit_0026_provenance_drift"}
+{"detail": {"original_price": 102.18033138811917, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1027, "step_index": 1, "task_id": "audit_0027_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1028, "step_index": 14, "task_id": "audit_0028_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1029, "step_index": 20, "task_id": "audit_0029_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1030, "step_index": 1, "task_id": "audit_0030_provenance_drift"}
+{"detail": {"original_price": 118.90929667794941, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1031, "step_index": 20, "task_id": "audit_0031_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1032, "step_index": 12, "task_id": "audit_0032_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1033, "step_index": 20, "task_id": "audit_0033_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1034, "step_index": 1, "task_id": "audit_0034_provenance_drift"}
+{"detail": {"original_price": 149.31671490354717, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1035, "step_index": 21, "task_id": "audit_0035_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1036, "step_index": 13, "task_id": "audit_0036_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.6, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1037, "step_index": 2, "task_id": "audit_0037_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1038, "step_index": 3, "task_id": "audit_0038_provenance_drift"}
+{"detail": {"original_price": 124.7867835248072, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1039, "step_index": 22, "task_id": "audit_0039_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1040, "step_index": 9, "task_id": "audit_0040_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1041, "step_index": 14, "task_id": "audit_0041_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1042, "step_index": 7, "task_id": "audit_0042_provenance_drift"}
+{"detail": {"original_price": 160.4070199982827, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1043, "step_index": 19, "task_id": "audit_0043_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1044, "step_index": 7, "task_id": "audit_0044_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1045, "step_index": 22, "task_id": "audit_0045_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1046, "step_index": 14, "task_id": "audit_0046_provenance_drift"}
+{"detail": {"original_price": 120.39140606179654, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1047, "step_index": 3, "task_id": "audit_0047_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1048, "step_index": 8, "task_id": "audit_0048_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1049, "step_index": 21, "task_id": "audit_0049_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1050, "step_index": 10, "task_id": "audit_0050_provenance_drift"}
+{"detail": {"original_price": 104.26821724299516, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1051, "step_index": 2, "task_id": "audit_0051_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1052, "step_index": 4, "task_id": "audit_0052_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1053, "step_index": 11, "task_id": "audit_0053_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1054, "step_index": 3, "task_id": "audit_0054_provenance_drift"}
+{"detail": {"original_price": 124.4646550180331, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1055, "step_index": 3, "task_id": "audit_0055_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1056, "step_index": 3, "task_id": "audit_0056_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1057, "step_index": 17, "task_id": "audit_0057_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1058, "step_index": 9, "task_id": "audit_0058_provenance_drift"}
+{"detail": {"original_price": 102.45038990291408, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1059, "step_index": 2, "task_id": "audit_0059_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1060, "step_index": 7, "task_id": "audit_0060_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1061, "step_index": 17, "task_id": "audit_0061_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1062, "step_index": 3, "task_id": "audit_0062_provenance_drift"}
+{"detail": {"original_price": 106.62999080844432, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1063, "step_index": 7, "task_id": "audit_0063_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1064, "step_index": 7, "task_id": "audit_0064_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1065, "step_index": 22, "task_id": "audit_0065_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1066, "step_index": 14, "task_id": "audit_0066_provenance_drift"}
+{"detail": {"original_price": 118.02939159728459, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1067, "step_index": 1, "task_id": "audit_0067_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1068, "step_index": 13, "task_id": "audit_0068_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1069, "step_index": 11, "task_id": "audit_0069_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1070, "step_index": 11, "task_id": "audit_0070_provenance_drift"}
+{"detail": {"original_price": 117.79525935468058, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1071, "step_index": 4, "task_id": "audit_0071_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1072, "step_index": 15, "task_id": "audit_0072_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.5, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1073, "step_index": 11, "task_id": "audit_0073_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1074, "step_index": 20, "task_id": "audit_0074_provenance_drift"}
+{"detail": {"original_price": 113.9877732697941, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1075, "step_index": 15, "task_id": "audit_0075_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1076, "step_index": 11, "task_id": "audit_0076_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1077, "step_index": 21, "task_id": "audit_0077_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1078, "step_index": 3, "task_id": "audit_0078_provenance_drift"}
+{"detail": {"original_price": 138.76208752053884, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1079, "step_index": 19, "task_id": "audit_0079_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1080, "step_index": 15, "task_id": "audit_0080_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1081, "step_index": 15, "task_id": "audit_0081_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1082, "step_index": 6, "task_id": "audit_0082_provenance_drift"}
+{"detail": {"original_price": 127.36385342725569, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1083, "step_index": 7, "task_id": "audit_0083_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1084, "step_index": 20, "task_id": "audit_0084_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1085, "step_index": 20, "task_id": "audit_0085_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1086, "step_index": 18, "task_id": "audit_0086_provenance_drift"}
+{"detail": {"original_price": 103.83788167051398, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1087, "step_index": 7, "task_id": "audit_0087_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1088, "step_index": 17, "task_id": "audit_0088_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1089, "step_index": 11, "task_id": "audit_0089_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1090, "step_index": 14, "task_id": "audit_0090_provenance_drift"}
+{"detail": {"original_price": 118.69603649395772, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1091, "step_index": 13, "task_id": "audit_0091_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1092, "step_index": 19, "task_id": "audit_0092_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1093, "step_index": 12, "task_id": "audit_0093_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1094, "step_index": 17, "task_id": "audit_0094_provenance_drift"}
+{"detail": {"original_price": 103.54221140767902, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1095, "step_index": 8, "task_id": "audit_0095_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1096, "step_index": 20, "task_id": "audit_0096_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1097, "step_index": 16, "task_id": "audit_0097_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1098, "step_index": 5, "task_id": "audit_0098_provenance_drift"}
+{"detail": {"original_price": 119.2523628949882, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1099, "step_index": 13, "task_id": "audit_0099_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1100, "step_index": 0, "task_id": "audit_0100_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1101, "step_index": 11, "task_id": "audit_0101_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1102, "step_index": 23, "task_id": "audit_0102_provenance_drift"}
+{"detail": {"original_price": 140.3914852242231, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1103, "step_index": 13, "task_id": "audit_0103_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1104, "step_index": 8, "task_id": "audit_0104_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.8, "symbol": "ALT"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1105, "step_index": 0, "task_id": "audit_0105_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1106, "step_index": 14, "task_id": "audit_0106_provenance_drift"}
+{"detail": {"original_price": 129.0281060847742, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1107, "step_index": 22, "task_id": "audit_0107_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.0, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1108, "step_index": 7, "task_id": "audit_0108_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1109, "step_index": 14, "task_id": "audit_0109_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1110, "step_index": 15, "task_id": "audit_0110_provenance_drift"}
+{"detail": {"original_price": 105.76777278767223, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1111, "step_index": 7, "task_id": "audit_0111_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.35, "symbol": "SYN"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1112, "step_index": 9, "task_id": "audit_0112_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1113, "step_index": 0, "task_id": "audit_0113_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1114, "step_index": 16, "task_id": "audit_0114_provenance_drift"}
+{"detail": {"original_price": 129.66634438462776, "symbol": "ALT"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1115, "step_index": 10, "task_id": "audit_0115_tampered_fill_price"}
+{"detail": {"original_target_weight": 0.25000000000000006, "symbol": "ALT"}, "difficulty": "L1", "kind": "unclipped_position", "source_seed": 1116, "step_index": 18, "task_id": "audit_0116_unclipped_position"}
+{"detail": {"removed_risk_clipped_from": 0.75, "symbol": "SYN"}, "difficulty": "L2", "kind": "silent_risk_edit", "source_seed": 1117, "step_index": 14, "task_id": "audit_0117_silent_risk_edit"}
+{"detail": {"original_model_version": "deterministic-baseline"}, "difficulty": "L2", "kind": "provenance_drift", "source_seed": 1118, "step_index": 7, "task_id": "audit_0118_provenance_drift"}
+{"detail": {"original_price": 101.55156049162206, "symbol": "SYN"}, "difficulty": "L3", "kind": "tampered_fill_price", "source_seed": 1119, "step_index": 2, "task_id": "audit_0119_tampered_fill_price"}

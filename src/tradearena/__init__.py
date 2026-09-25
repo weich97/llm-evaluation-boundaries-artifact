@@ -1,0 +1,1 @@
+"""Minimal offline artifact package."""

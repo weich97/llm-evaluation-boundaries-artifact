@@ -1,0 +1,1 @@
+{"model_id": "glm-5-turbo", "original_file_sha256": "f176900a4b53576c1b628130f20b8446c90d7011c02041bb0e3754ae0d6e5792", "sampling": {"max_tokens": 1200, "temperature": 0.2, "top_p": 1.0}}

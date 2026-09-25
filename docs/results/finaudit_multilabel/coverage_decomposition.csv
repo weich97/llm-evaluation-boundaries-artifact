@@ -1,0 +1,3 @@
+model,dual_tasks,both_targets,both_with_extra_findings,both_parse_failures,exact_dual_sets,zero_findings
+deepseek:deepseek-v4-pro,100,78,57,0,21,850
+glm:glm-5,100,23,16,0,7,378

@@ -1,0 +1,104 @@
+{
+  "bootstrap": {
+    "draws": 10000,
+    "resampling_unit": "shared source seed; retain all models, scenarios, samples, origins, and destinations",
+    "seed": 20260719
+  },
+  "analysis_contract": {
+    "interval_interpretation": "descriptive pointwise 95% shared-seed cluster intervals; no family-wise error control",
+    "overall_weighting": "equal weight per complete model-scenario-seed-sample base pair; provider mix follows the frozen design (GLM 60%, DeepSeek 40%)",
+    "primary_summary": "total_return execution_shapley",
+    "ranking": {
+      "agreement": "Kendall tau-b between E0 and E1 destination rankings",
+      "direction": "higher_is_better",
+      "metric": "sharpe",
+      "scope": "scenario_by_response_origin"
+    }
+  },
+  "claim_boundary": {
+    "between_origin_contrast": "realized response-path contrast; includes sampling, feedback, and provider-time drift",
+    "causal_execution_contrast": "within one frozen response tape, pre-risk decisions are verified fixed; downstream risk approval remains execution-endogenous",
+    "forbidden_claim": "the original E0/E1 diagonal difference isolates execution",
+    "ranking_claim_rule": "claim execution-alone ranking sensitivity only when both response-origin strata agree and the seed-cluster interval is stable"
+  },
+  "diagonal_reproduction": {
+    "float_rule": "round(new_value, 6) equals the published submission value",
+    "integer_rule": "exact equality",
+    "required": true
+  },
+  "estimands": [
+    "destination execution contrast within response origin I0",
+    "destination execution contrast within response origin I1",
+    "realized response-path contrast within X0",
+    "realized response-path contrast within X1",
+    "two-by-two interaction",
+    "execution and realized-path Shapley decomposition of the observed diagonal difference"
+  ],
+  "expected": {
+    "base_pairs": 450,
+    "execution_levels": [
+      "E0",
+      "E1"
+    ],
+    "intent_paths": 900,
+    "periods_per_path": 24,
+    "replay_rows": 1800,
+    "samples_per_seed": 3,
+    "seeds_per_model_scenario": 10,
+    "source_rows": 900
+  },
+  "historical_metadata_note": "The frozen plan rows and call packets contain 900 rows / 30 model-scenario groups. The older plan summary's 450 / 15 values are stale and are not used.",
+  "implementation_sha256": {
+    "src_tradearena_python_tree": "sha256:d70e95d7e8b3fd992a3190820a7bdcf017998f5ef5c2a1b52795d3c5d63b16b5"
+  },
+  "metrics": [
+    "total_return",
+    "sharpe",
+    "max_drawdown",
+    "execution_fill_rate",
+    "total_slippage_cost",
+    "rejected_order_count",
+    "risk_clipped_decisions",
+    "risk_violation_count",
+    "trajectory_reproducibility_coverage"
+  ],
+  "pair_key_fields": [
+    "protocol_id",
+    "provider",
+    "model_id",
+    "model_version_or_release",
+    "api_endpoint_family",
+    "scenario_id",
+    "contamination_tier",
+    "seed",
+    "sample_index",
+    "prompt_template_id",
+    "prompt_version",
+    "temperature",
+    "top_p",
+    "max_tokens"
+  ],
+  "protocol_id": "trellm-v0.3-iclr-protocol",
+  "raw_prompt_public": false,
+  "raw_response_public": false,
+  "schema_version": "tradearena.fixed-intent-replay.plan.v1",
+  "source_hash_policy": "sha256 of text bytes after CRLF/CR -> LF normalization",
+  "source_sha256": {
+    "docs/results/v0_3_direct_api_call_packets/direct_api_call_packets.jsonl": "5a2771e2664b891dcc8446bc65db039cd1acdf6d0c68bc581b20a50740299797",
+    "docs/results/v0_3_direct_api_matrix_plan/direct_api_matrix_plan_rows.csv": "b2f5646676b55f0bdc86ccc87d512ec067dff61ef1496f4a9cc61397082e2f96",
+    "scripts/run_v03_fixed_intent_replay.py": "56a7a83b49bbee4f92ef9a818d96d7755bf02caffeb6c3c38932f596cee85d98",
+    "scripts/run_v03_direct_api_submission.py": "7a68943152e01600d4329a559a30d86f373e061209234949fd528fcbfc1fa3a5",
+    "scripts/validate_direct_provider_manifest.py": "01c4620c6a840dfe1026d9f675856e20c69bb8a51f0e9fc3364cfac707aeaf5b",
+    "src/tradearena/agents/llm.py": "ec0c60b09d32b2529d081c562503fdd094525cb66e4c9958cff4512f979bcc54",
+    "src/tradearena/core/runner.py": "b8e60c8b0eeb51d0ce428ecc3e84ce206c59c22406f04aac630833ab2788a1a6",
+    "src/tradearena/factory.py": "e5451ee5a737d9db8a2e10e61f1ce5df302b4bf58f4ef3044cbe213d92b4914c"
+  },
+  "source_set_sha256": {
+    "private_call_logs_set": "sha256:3bc96803268a29bd4fb3969ce5ece2e3db64fc41905b18584eee3cdd9b7465f0",
+    "provider_manifests_set": "sha256:a0818fda654ce997bce7837d98868670506c11b6ba2a86fbacebd01fed7f068a",
+    "run_records_set": "sha256:4ac171258b4854aee55612fe4b865bfbaac1de5067f81826e97594cdfafdb561",
+    "submissions_set": "sha256:b99385525b9b79c6e968f481c10cc71b2e380cf649223abc4381ba3efe4231ff"
+  },
+  "stop_rule": "publish nothing unless the frozen implementation and exact source file sets match, all 900 source rows and 450 E0/E1 pairs validate, all 1800 replays consume their response tapes, pre-risk decisions stay fixed across destinations, and 900 diagonal metric checks pass",
+  "title": "Fixed-response-path two-by-two replay of the v0.3 direct-API matrix"
+}

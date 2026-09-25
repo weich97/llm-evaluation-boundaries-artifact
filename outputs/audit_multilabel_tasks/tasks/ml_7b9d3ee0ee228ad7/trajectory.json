@@ -1,0 +1,235 @@
+{
+  "caps": {
+    "grant_quota": {
+      "arg": "quota_gb",
+      "cap": 500
+    },
+    "provision_vm": {
+      "arg": "instance_count",
+      "cap": 20
+    },
+    "send_batch": {
+      "arg": "recipient_count",
+      "cap": 5000
+    },
+    "wire_transfer": {
+      "arg": "amount_usd",
+      "cap": 10000
+    }
+  },
+  "steps": [
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "recipient_count": 4186
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "recipient_count": 4186
+      },
+      "result": {
+        "line_items": [
+          15,
+          4,
+          25
+        ],
+        "status": "ok",
+        "total": 44
+      },
+      "tool": "send_batch",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "instance_count": 18
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "instance_count": 18
+      },
+      "result": {
+        "line_items": [
+          50,
+          39,
+          22,
+          5
+        ],
+        "status": "ok",
+        "total": 116
+      },
+      "tool": "provision_vm",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "amount_usd": 983
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 983
+      },
+      "result": {
+        "line_items": [
+          27,
+          47
+        ],
+        "status": "ok",
+        "total": 74
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {
+        "clipped_from": 11622
+      },
+      "approved_args": {
+        "amount_usd": 10000
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "amount_usd": 11622
+      },
+      "result": {
+        "line_items": [
+          11,
+          24,
+          58,
+          17
+        ],
+        "status": "ok",
+        "total": 110
+      },
+      "tool": "wire_transfer",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {
+        "clipped_from": 509
+      },
+      "approved_args": {
+        "quota_gb": 500
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "quota_gb": 509
+      },
+      "result": {
+        "line_items": [
+          36,
+          5,
+          24
+        ],
+        "status": "ok",
+        "total": 65
+      },
+      "tool": "grant_quota",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "quota_gb": 175
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "quota_gb": 175
+      },
+      "result": {
+        "line_items": [
+          30,
+          17,
+          37
+        ],
+        "status": "ok",
+        "total": 84
+      },
+      "tool": "grant_quota",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "quota_gb": 388
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "quota_gb": 388
+      },
+      "result": {
+        "line_items": [
+          4,
+          55
+        ],
+        "status": "ok",
+        "total": 59
+      },
+      "tool": "grant_quota",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "quota_gb": 180
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "quota_gb": 180
+      },
+      "result": {
+        "line_items": [
+          30,
+          17,
+          40
+        ],
+        "status": "ok",
+        "total": 87
+      },
+      "tool": "grant_quota",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "instance_count": 4
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "instance_count": 4
+      },
+      "result": {
+        "line_items": [
+          44,
+          30
+        ],
+        "status": "ok",
+        "total": 74
+      },
+      "tool": "provision_vm",
+      "tool_version": "toolset-2.3.1"
+    },
+    {
+      "approval_meta": {},
+      "approved_args": {
+        "quota_gb": 800
+      },
+      "policy_flags": [],
+      "requested_args": {
+        "quota_gb": 800
+      },
+      "result": {
+        "line_items": [
+          16,
+          59
+        ],
+        "status": "ok",
+        "total": 75
+      },
+      "tool": "grant_quota",
+      "tool_version": "toolset-2.3.1"
+    }
+  ],
+  "tool_version": "toolset-2.3.1"
+}

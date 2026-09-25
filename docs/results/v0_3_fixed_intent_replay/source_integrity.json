@@ -1,0 +1,50 @@
+{
+  "analysis_plan_sha256": "5431c0aa8aeca6f4d890e07d327b4b03fea8190fccb6f47bb82a4dab9b30b6a0",
+  "checks": {
+    "analysis_plan_contract_exact": true,
+    "artifact_hash_chain": true,
+    "diagonal_metrics_round6": true,
+    "implementation_tree_frozen": true,
+    "paired_market_paths": true,
+    "plan_packet_identity": true,
+    "pre_risk_decisions_fixed_across_execution": true,
+    "private_log_hashes_and_order": true,
+    "public_privacy_scan": true,
+    "response_tapes_consumed_exactly": true,
+    "source_cross_fields_bound": true,
+    "source_file_sets_frozen": true,
+    "source_grid_exact": true
+  },
+  "expected": {
+    "base_pairs": 450,
+    "periods_per_path": 24,
+    "replay_rows": 1800,
+    "source_rows": 900
+  },
+  "failed_count": 0,
+  "observed": {
+    "base_pairs": 450,
+    "diagonal_reproductions": 900,
+    "replay_rows": 1800,
+    "source_rows": 900
+  },
+  "output_sha256": {
+    "intent_divergence.csv": "e6a9c41f64556de81f5e061f9abddbe294659ddb73d939393b4a2784d2ec9c25",
+    "intent_paths.csv": "dd48ebf5770e97d40bb47611c73be4be573435a0e5ec55b47e0c3b761b2f0865",
+    "replay_rows.csv": "62c126b3ff8376a13a1e55ca18eb742496bb3ab67ab80d8d21c8d4b8c6410e8c"
+  },
+  "protocol_id": "trellm-v0.3-iclr-protocol",
+  "raw_prompt_emitted": false,
+  "raw_response_emitted": false,
+  "schema_version": "tradearena.fixed-intent-replay.integrity.v1",
+  "source_hash_policy": "sha256 of text bytes after CRLF/CR -> LF normalization",
+  "source_ready": true,
+  "source_sha256": {
+    "call_packets": "5a2771e2664b891dcc8446bc65db039cd1acdf6d0c68bc581b20a50740299797",
+    "plan_rows": "b2f5646676b55f0bdc86ccc87d512ec067dff61ef1496f4a9cc61397082e2f96",
+    "private_call_logs_set": "sha256:3bc96803268a29bd4fb3969ce5ece2e3db64fc41905b18584eee3cdd9b7465f0",
+    "provider_manifests_set": "sha256:a0818fda654ce997bce7837d98868670506c11b6ba2a86fbacebd01fed7f068a",
+    "run_records_set": "sha256:4ac171258b4854aee55612fe4b865bfbaac1de5067f81826e97594cdfafdb561",
+    "submissions_set": "sha256:b99385525b9b79c6e968f481c10cc71b2e380cf649223abc4381ba3efe4231ff"
+  }
+}

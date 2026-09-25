@@ -1,0 +1,7 @@
+scenario_id,response_origin,metric,kendall_tau_b,ci95_low,ci95_high,winner_e0,winner_e1,ranking_e0,ranking_e1,exact_order_probability,same_winner_probability,models,seed_clusters,bootstrap_draws
+synthetic_calm_trend_c0_v0_3,E0,sharpe,1.0,0.8,1.0,glm-5.2,glm-5.2,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,0.7635,0.858,5,10,10000
+synthetic_calm_trend_c0_v0_3,E1,sharpe,1.0,0.6,1.0,glm-5.2,glm-5.2,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,0.2608,0.6224,5,10,10000
+synthetic_high_volatility_c0_v0_3,E0,sharpe,1.0,0.6,1.0,glm-5.2,glm-5.2,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,0.5368,0.6656,5,10,10000
+synthetic_high_volatility_c0_v0_3,E1,sharpe,1.0,0.6,1.0,glm-5.2,glm-5.2,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,0.5678,0.6944,5,10,10000
+synthetic_jump_tail_c0_v0_3,E0,sharpe,1.0,0.8,1.0,glm-5.2,glm-5.2,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,0.7369,0.8252,5,10,10000
+synthetic_jump_tail_c0_v0_3,E1,sharpe,0.8,0.4,1.0,glm-5.2,glm-5,glm-5.2>glm-5>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,glm-5>glm-5.2>deepseek-v4-flash>glm-5-turbo>deepseek-v4-pro,0.3265,0.5325,5,10,10000

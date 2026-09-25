@@ -1,0 +1,1 @@
+{"model_id": "deepseek-v4-flash", "original_file_sha256": "3c611f2cf08bb21f2627012cf29e8d892371bcdc6df57c190cf0fa15e4cfe9a0", "sampling": {"max_tokens": 1200, "temperature": 0.2, "top_p": 1.0}}

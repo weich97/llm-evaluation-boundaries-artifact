@@ -1,0 +1,11 @@
+auditor,arm,n_pairs,default_confounded_recall,arm_confounded_recall,arm_clean_recall,fixed,regressed,mcnemar_p
+deepseek:deepseek-v4-pro,default,60,0.3,0.3,0.933,0,0,
+deepseek:deepseek-v4-pro,constraint,60,0.3,0.833,0.85,34,2,1.941e-08
+deepseek:deepseek-v4-pro,cot,60,0.3,0.333,0.867,5,3,7.266e-01
+deepseek:deepseek-v4-pro,selfcons_majority,60,0.3,0.5,0.817,16,4,1.182e-02
+deepseek:deepseek-v4-pro,selfcons_any,60,0.3,0.883,0.967,36,1,5.530e-10
+glm:glm-5,default,60,0.317,0.317,0.783,0,0,
+glm:glm-5,constraint,60,0.317,0.933,0.883,38,1,1.455e-10
+glm:glm-5,cot,60,0.317,0.617,0.733,24,6,1.431e-03
+glm:glm-5,selfcons_majority,60,0.317,0.283,0.717,5,7,7.744e-01
+glm:glm-5,selfcons_any,60,0.317,0.433,0.867,13,6,1.671e-01

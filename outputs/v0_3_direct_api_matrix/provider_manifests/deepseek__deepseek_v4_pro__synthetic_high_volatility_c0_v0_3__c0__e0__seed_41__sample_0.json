@@ -1,0 +1,1 @@
+{"model_id": "deepseek-v4-pro", "original_file_sha256": "22c5fc0b336f1a629244a1d5a08fcbcac0551ff7dc7c2ca81a3a7b949ec6bfea", "sampling": {"max_tokens": 1200, "temperature": 0.2, "top_p": 1.0}}

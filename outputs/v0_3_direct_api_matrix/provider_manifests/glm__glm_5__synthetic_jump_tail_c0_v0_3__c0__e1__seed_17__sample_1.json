@@ -1,0 +1,1 @@
+{"model_id": "glm-5", "original_file_sha256": "44b943a12ae306d12304421d5ef579c3f6c5f7a8f3d6a68c7b7efeb642c94c6a", "sampling": {"max_tokens": 1200, "temperature": 0.2, "top_p": 1.0}}

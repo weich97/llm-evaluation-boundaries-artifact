@@ -1,0 +1,5 @@
+domain,auditor,n_pairs,single_violation_recall,dual_violation_recall,delta_c,mcnemar_b,mcnemar_c,mcnemar_p,dual_edit_recall,dual_exact_set,dual_exactly_one_of_two
+trading,deepseek:deepseek-v4-pro,60,0.933,0.3,0.633,38,0,7.276e-12,0.717,0.033,0.95
+trading,glm:glm-5,60,0.783,0.317,0.467,31,3,7.660e-07,0.683,0.0,1.0
+tooluse,deepseek:deepseek-v4-pro,40,0.975,0.775,0.2,9,1,2.148e-02,0.5,0.325,0.625
+tooluse,glm:glm-5,40,1.0,0.45,0.55,22,0,4.768e-07,0.7,0.15,0.85

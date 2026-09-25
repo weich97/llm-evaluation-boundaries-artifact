@@ -1,0 +1,60 @@
+{
+  "analysis_plan_sha256": "5431c0aa8aeca6f4d890e07d327b4b03fea8190fccb6f47bb82a4dab9b30b6a0",
+  "analyzer_hash_policy": "sha256 of text bytes after CRLF/CR -> LF normalization",
+  "analyzer_sha256": "9115073420c94cf67666a892e78605fe05fccfab75dad45a637deedd0d27edff",
+  "bootstrap": {
+    "clusters": [
+      7,
+      11,
+      17,
+      23,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "draw_method": "for each replicate, draw G randrange(G) indices with replacement and store multiplicity counts aligned to sorted seed clusters",
+    "draws": 10000,
+    "percentile_formula": "sort x[0..B-1]; z=(B-1)*p; interpolate x[floor(z)] and x[ceil(z)] by z-floor(z)",
+    "percentile_method": "Hyndman-Fan type 7 (linear interpolation)",
+    "percentile_probabilities": [
+      0.025,
+      0.975
+    ],
+    "rng_algorithm": "CPython random.Random (MT19937)",
+    "seed": 20260719,
+    "unit": "shared source seed",
+    "weight_matrix_sha256": "sha256:54a03062f583c71ea4ef571385922506d113847926f6f34a66c3298fc800cc06"
+  },
+  "claim_boundary": {
+    "downstream": "risk approval and fills remain execution-endogenous",
+    "execution": "response tape fixed and pre-risk decision path verified fixed",
+    "response_origin": "descriptive realized-path contrast"
+  },
+  "failed_count": 0,
+  "observed": {
+    "base_pairs": 450,
+    "divergence_summary_rows": 9,
+    "factorial_rows": 72,
+    "ranking_rows": 6,
+    "replay_rows": 1800,
+    "scoped_factorial_rows": 240
+  },
+  "output_sha256": {
+    "factorial_by_model_scenario.csv": "88e62d2db9f561c284896c8c840c0a4690bbb4636789d30377888386e1795d31",
+    "factorial_estimands.csv": "58d3a6113e8b6210297ff0c641fbd054d318c43fd6c860d651ff866cc238099a",
+    "fixed_response_analysis.md": "72726b779310209a0be20e8404d7534eac6206cd4c32e827ea59753703e0eb60",
+    "ranking_stability.csv": "d3c4db264312428983d08cb8635a7e85e69537b4bd544985f24e46109109d985",
+    "response_path_divergence.csv": "3f0763d61140beb46f0fa81414b735269e5e00d92883e262c7b726dd2cfc32c9"
+  },
+  "protocol_id": "trellm-v0.3-iclr-protocol",
+  "schema_version": "tradearena.fixed-response-replay.analysis.v1",
+  "source_integrity_sha256": "5c601667590484b512de928f61234788f82d2b6bba0acf0ee587a0f26529515f",
+  "source_output_sha256": {
+    "intent_divergence.csv": "e6a9c41f64556de81f5e061f9abddbe294659ddb73d939393b4a2784d2ec9c25",
+    "intent_paths.csv": "dd48ebf5770e97d40bb47611c73be4be573435a0e5ec55b47e0c3b761b2f0865",
+    "replay_rows.csv": "62c126b3ff8376a13a1e55ca18eb742496bb3ab67ab80d8d21c8d4b8c6410e8c"
+  }
+}

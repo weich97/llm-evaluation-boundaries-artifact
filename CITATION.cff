@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying preprint when using this research artifact."
+type: software
+title: "Measurement Boundaries in LLM Financial Agent Evaluation: Fixed-Tape Execution and Multi-Defect Auditing"
+authors:
+  - family-names: Xue
+    given-names: Weicheng
+    affiliation: Virginia Tech
+repository-code: "https://github.com/weich97/llm-evaluation-boundaries-artifact"
+version: 1.1.1
+date-released: 2026-09-24
+keywords:
+  - LLM evaluation
+  - fixed-response replay
+  - multi-defect auditing
+  - reproducible research

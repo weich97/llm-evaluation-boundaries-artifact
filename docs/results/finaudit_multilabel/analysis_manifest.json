@@ -1,0 +1,19 @@
+{
+  "bootstrap_draws": 10000,
+  "cache_files_sha256": {
+    "auditml_deepseek_deepseek_v4_pro.jsonl": "245c1006c9bb9ea508a156f544db4b7e604823d675569719ee7938ac3a26579a",
+    "auditml_glm_glm_5.jsonl": "3a295649f461a4123c0699a3615b5aae1d7b4325e7f0ddc22889b4a47b8501fb"
+  },
+  "expected_result_keys": 600,
+  "ground_truth_sha256": "4c5fa798014dd79ad5b5144cf638dabec0f54b6ec906dd293b1bc780e79571a5",
+  "models": [
+    "deepseek:deepseek-v4-pro",
+    "glm:glm-5"
+  ],
+  "observed_result_keys": 600,
+  "primary_family_size": 6,
+  "results_sha256": "6409f5a2e0106fdf2a151526c864f5d41242e84b12a0ddb960344c9f9c34d196",
+  "schema_version": "finaudit.multilabel.analysis.v1",
+  "tasks_manifest_sha256": "2bfaf7ff5713c0dc8fcefc844224a82c162d8e2e02e8e1b2d6f0ea22d45a6edc",
+  "verification_mode": "raw-cache-replay"
+}
